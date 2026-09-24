@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email
+    url: mailto:leafline.studio.apps@gmail.com
+    about: Prefer not to post publicly? Write to us directly.
+  - name: Privacy policy
+    url: https://leafline-studio-apps.github.io/tasply/privacy-policy.html
+    about: What happens to your data (spoiler - it stays on your phone).
