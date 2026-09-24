@@ -1,0 +1,66 @@
+name: Bug report
+description: Something doesn't work as it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem!
+        Issues are public, so please don't include personal information.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem. What did you expect to happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we make it happen again?
+      placeholder: |
+        1. Open the Today screen
+        2. Tap ...
+        3. See the problem
+    validations:
+      required: false
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Google Play → Tasply → About this app (or Android Settings → Apps → Tasply).
+      placeholder: e.g. 0.3.1
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone and Android version
+      placeholder: e.g. Samsung Galaxy S23, Android 15
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: App language
+      options:
+        - English
+        - Polski
+        - Deutsch
+        - Español
+        - Português
+        - Français
+        - Русский
+        - Türkçe
+        - Bahasa Indonesia
+        - हिन्दी
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If possible, drag and drop screenshots here.
+    validations:
+      required: false
